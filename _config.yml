@@ -1,7 +1,7 @@
 title: "Abhishek's Journal"
 description: "Daily log — job hunt, thoughts, life."
-baseurl: ""
-url: "https://abhishrek47.github.io"
+baseurl: "/daily-journal"
+url: "https://abhishektrivedi.com"
 
 # Build settings
 markdown: kramdown
