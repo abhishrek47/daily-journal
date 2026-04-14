@@ -1,0 +1,25 @@
+title: "Abhishek's Journal"
+description: "Daily log — job hunt, thoughts, life."
+baseurl: ""
+url: "https://abhishrek47.github.io"
+
+# Build settings
+markdown: kramdown
+permalink: /posts/:year/:month/:day/:title/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .bundle
+  - .jekyll-cache
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"

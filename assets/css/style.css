@@ -1,0 +1,205 @@
+/* ===== RESET & BASE ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #0f0f0f;
+  --surface: #171717;
+  --border: #2a2a2a;
+  --text: #e2e2e2;
+  --muted: #888;
+  --accent: #b5a4ff;
+  --link: #b5a4ff;
+  --link-hover: #d4caff;
+  --font: 'Georgia', 'Times New Roman', serif;
+  --mono: 'Courier New', monospace;
+  --max: 680px;
+}
+
+html { font-size: 18px; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  line-height: 1.75;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* ===== HEADER ===== */
+.site-header {
+  padding: 2rem var(--max);
+  max-width: calc(var(--max) + 4rem);
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.site-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: var(--accent);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.site-subtitle {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-family: var(--mono);
+}
+
+/* ===== MAIN ===== */
+.content {
+  max-width: calc(var(--max) + 4rem);
+  margin: 0 auto;
+  padding: 3rem 2rem;
+  width: 100%;
+  flex: 1;
+}
+
+/* ===== HOME ===== */
+.entries-heading {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+  margin-bottom: 2rem;
+  font-family: var(--mono);
+  font-weight: normal;
+}
+
+.post-list { list-style: none; }
+
+.post-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-item:last-child { border-bottom: none; }
+
+.post-link {
+  display: block;
+  font-size: 1.15rem;
+  color: var(--text);
+  text-decoration: none;
+  margin-bottom: 0.25rem;
+  line-height: 1.4;
+}
+
+.post-link:hover { color: var(--link-hover); }
+
+.post-date {
+  display: block;
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-family: var(--mono);
+  margin-bottom: 0.5rem;
+}
+
+.post-excerpt {
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.no-entries { color: var(--muted); font-style: italic; }
+
+/* ===== POST ===== */
+.post-header {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.post-title {
+  font-size: 1.7rem;
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+  font-weight: normal;
+}
+
+.post-meta {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-family: var(--mono);
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.mood {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 0.1rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.7rem;
+}
+
+/* ===== POST CONTENT ===== */
+.post-content { max-width: var(--max); }
+
+.post-content h2 {
+  font-size: 1.1rem;
+  color: var(--accent);
+  margin: 2rem 0 0.75rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-family: var(--mono);
+  font-size: 0.8rem;
+}
+
+.post-content p { margin-bottom: 1.25rem; }
+
+.post-content a { color: var(--link); }
+.post-content a:hover { color: var(--link-hover); }
+
+.post-content strong { color: #fff; font-weight: bold; }
+
+.post-content ul, .post-content ol {
+  margin: 0 0 1.25rem 1.5rem;
+}
+
+.post-content li { margin-bottom: 0.4rem; }
+
+.post-content blockquote {
+  border-left: 3px solid var(--accent);
+  padding-left: 1.25rem;
+  color: var(--muted);
+  font-style: italic;
+  margin: 1.5rem 0;
+}
+
+/* ===== POST NAV ===== */
+.post-nav {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  font-size: 0.85rem;
+  overflow: hidden;
+}
+
+.post-nav a { color: var(--muted); text-decoration: none; }
+.post-nav a:hover { color: var(--text); }
+
+/* ===== FOOTER ===== */
+.site-footer {
+  padding: 1.5rem 2rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--muted);
+  font-family: var(--mono);
+  border-top: 1px solid var(--border);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  html { font-size: 16px; }
+  .content { padding: 2rem 1.25rem; }
+  .site-header { padding: 1.5rem 1.25rem; }
+}
