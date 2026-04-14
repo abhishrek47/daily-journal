@@ -8,8 +8,10 @@
 </head>
 <body>
   <header class="site-header">
-    <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
-    <span class="site-subtitle">{{ site.description }}</span>
+    <div class="site-header-inner">
+      <a href="{{ '/' | relative_url }}" class="site-title">AT<span>.</span> Journal</a>
+      <span class="site-subtitle">{{ site.description }}</span>
+    </div>
   </header>
 
   <main class="content">
@@ -17,7 +19,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>{{ site.title }} &middot; Personal record</p>
+    © {{ site.time | date: "%Y" }} Abhishek Trivedi · Personal record
   </footer>
 </body>
 </html>
