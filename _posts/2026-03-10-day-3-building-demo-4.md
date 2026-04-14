@@ -1,16 +1,16 @@
 ---
 layout: post
-title: "Day 3 — building Demo 4"
+title: "Day 3 — building Demo 4, late into the night"
 date: 2026-03-10 20:00:00 +0530
 mood: building
 ---
 
-*(Retrospective — written from session logs, April 14 2026)*
+*(Retrospective — reconstructed April 14 2026)*
 
-First real build day. Started with Demo 4 — the AI Storyboard Generator. The prompt engineering demo. It runs on the Anthropic API, takes a learning topic and target audience, and returns a structured storyboard using real ID frameworks. Fast to build, directly addresses the "Custom GPT Bots" gap in my resume, and demonstrates something most L&D people can't do.
+First real session day. Opened Claude at 10 AM asking what it could do — genuinely testing it as a tool, not just out of curiosity. Then I gave it the full picture of who I am, what I'm building, and where I need to go. That conversation set the context for everything that followed.
 
-First attempt didn't work. Rebuilt it. That's fine — the second build is always cleaner than the first. By the end of the day it was running.
+By 10:45 PM we were building Demo 4: the AI Storyboard Generator. The logic for starting here was clear — it runs on the Anthropic API, demonstrates instructional design thinking combined with live AI output, and directly addresses the "Custom GPT bots" gap on my resume. A hiring manager at upGrad or Freshworks sees an AI tool that generates real storyboards using actual ID frameworks. That's the demo.
 
-Also asked Claude what it could do. Felt like the right first question at the start of something. The answer was useful. Less about features, more about understanding how to use it as a thinking partner rather than an autocomplete tool.
+First build failed. The prompt engineering wasn't tight enough. Rebuilt it at 11:24 PM from scratch. The second version worked. Stayed up until past midnight getting it stable.
 
-The portfolio was starting to feel real.
+That's how this phase was going to go. Build until it works. Ship it.

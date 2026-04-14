@@ -1,16 +1,14 @@
 ---
 layout: post
-title: "Day 2 — the plan takes shape"
+title: "Day 2 — the plan"
 date: 2026-03-09 20:00:00 +0530
 mood: focused
 ---
 
-*(Retrospective — written from session logs, April 14 2026)*
+*(Retrospective — reconstructed April 14 2026)*
 
-Still no session logs for this day. That's fine — the early days were about thinking, not executing.
+Still no Claude sessions — just a ChatGPT conversation asking whether AI is a black box. That question wasn't idle curiosity. It was research. If I was going to position myself at the intersection of instructional design and AI, I needed to understand AI clearly enough to talk about it honestly.
 
-The portfolio was the anchor. Not a resume rewrite, not a LinkedIn refresh — a live, working, interactive portfolio. Every case study needed to be something you could actually click on and use in the browser. Not a recording. Not a screenshot. The real thing.
+The portfolio structure was getting clearer. Five case studies, each one demonstrating something specific: LMS API integration, template architecture, localization automation, xAPI analytics, AI storyboarding. Not a list of skills. Working proofs in the browser.
 
-I'd been sitting on the abhishektrivedi.com domain. Time to make it mean something.
-
-The plan at this point: five case studies, each one demonstrating a different dimension of what I do — LMS API integration, template systems, localization automation, xAPI/learning analytics, AI storyboarding. Not five things I could do. Five things I had done, running live, with open code.
+abhishektrivedi.com existed but was thin. That needed to change — completely.

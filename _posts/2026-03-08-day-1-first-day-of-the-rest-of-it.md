@@ -5,14 +5,16 @@ date: 2026-03-08 20:00:00 +0530
 mood: uncertain
 ---
 
-*(Retrospective — written from session logs, April 14 2026)*
+*(Retrospective — reconstructed April 14 2026)*
 
-No record of this day in the session logs. Which makes sense — I hadn't figured out the workflow yet. But I know what was happening: I'd made the decision. Left Siemens. The PIP was the push I needed to do what I should have done sooner.
+No session logs for this day. The Claude export starts March 10.
 
-The first day after leaving a job is strange. Not bad-strange. Just — quiet. The absence of the calendar is loud.
+What I do know: I'd quit Siemens. The PIP earlier had been the signal I needed. I wasn't going to wait for a managed exit. I left on my terms.
 
-I remember sitting with the portfolio idea. Not as a fallback. As the plan. If I was going to go out and tell companies I was worth 30–35 LPA, I needed proof that wasn't a PDF with bullet points. I needed something they could actually use.
+Day one of unemployment — if that's even the right word for it — is strange. Not frightening. Just quiet. The absence of a calendar invite is loud when you've been in meetings for years.
 
-Ami was steady. Oscar was oblivious. Agastya had no opinions except about his cereal. The three of them made the whole thing feel less like a cliff edge and more like a runway.
+The plan was already forming. Not a job hunt in the traditional sense — spray resumes, hope something sticks. A different approach: build something that makes the case so clearly that conversations start from a different position. The portfolio was going to be the argument.
 
-I didn't start anything concrete that day. But I knew what I was going to build.
+I didn't open a laptop that day. Just sat with it.
+
+Oscar got a long walk. Agastya was oblivious. Ami was steady. That was enough.
